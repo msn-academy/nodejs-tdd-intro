@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex: 0 1 100%;
+  width: 400px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  flex: 0 1 25%;
+  padding: 15px;
+  font-size: 16px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons .divide {
+  flex: 0 1 50%;
+}
+
+.buttons .zero {
+  flex: 2;
+}
+
+.result-container {
+  background: #000;
+  padding: 15px;
+  color: #fff;
+  text-align: right;
+}
