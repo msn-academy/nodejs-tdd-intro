@@ -1,6 +1,6 @@
 const fizzBuzz = (num) => {
   if(!Number.isInteger(num)) {
-    throw new Error('Parameter num should be a number');
+    return 'Parameter num should be a number';
   }
   const values = [];
 
@@ -18,5 +18,7 @@ const fizzBuzz = (num) => {
   return values;
 }
 
-const fizzBuzzes = fizzBuzz(20)
-console.log(fizzBuzzes);
+// const fizzBuzzes = fizzBuzz(20)
+// console.log(fizzBuzzes);
+
+module.exports = fizzBuzz;

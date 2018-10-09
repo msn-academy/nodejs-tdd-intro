@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-tutorial-test",
+  "version": "1.0.0",
+  "description": "This is a Nodejs Tutorial with test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Temitayo Fadojutimi <fadojutimitemitayo@gmail.com> (http://twitter.com/adesege_)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
